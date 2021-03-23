@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <title>Login</title>
+	<meta charset="utf-8" />
+    <link href="login.css" rel="stylesheet" />
+    <script src="Scripts/JQuery/jquery-3.4.1.js"></script>
+	<link href="css/modal.css" rel="stylesheet" />
+    <link href="css/menuPpal.css" rel="stylesheet" />
+    <script src="../head/menuPpal.js"></script>
+    <link href="css/general.css" rel="stylesheet" />
+    <link href="css/laoder.css" rel="stylesheet" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;500&display=swap" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/></head>
+<body>
+    <body class="container">
+		<div class="info">
+			<div>
+				<img class="imagenmarca" src="imagen-marca.png" alt="">
+			</div>
+			<div class="info-imagen">
+				<h1 class="tituloimagen">El valor <br>de la información.</h1>
+				<p class="parrafoimagen">La digitalización te permite ahorrar mucho tiempo en la
+					ubicación de los documentos mal archivados, en copiar,
+					o enviar la información, traduciéndose en ahorros en los
+					gastos administrativos.</p>
+					<div class="linea"></div>
+			</div>
+		</div>
+	<div class="login">
+		<!-- <div class="login-screen"> -->
+			<div class="app-title">
+				<h1 class="titulo1">Comenzá</h1>
+					<span class="titulo2">tu experiencia.</span>	
+			</div>
+            <div class="loader"></div>    
+			<div class="login-form">
+				<div class="control-group">
+				<input type="text" class="login-field" value="" placeholder="  &#xf007;   Usuario" id="login-name">
+				<label class="login-field-icon fui-user" for="login-name"></label>
+				</div>
+
+				<div class="control-group">
+				<input type="password" class="login-field" value="" placeholder="  &#xf023;   Contraseña" id="login-pass" onkeypress="pulsar()">
+				<label class="login-field-icon fui-lock" for="login-pass"></label>
+				</div>
+
+				<a class="btn btn-primary btn-large btn-block" onclick="Login()" id="botonEntrar">Ingresar</a>
+				<a class="login-link" href="#">¿Olvidaste tu contraseña?</a>
+			</div>
+			
+		
+		</div>
+			<div class="container-media">
+				<div>
+					<img class="marca" src="imagen-marca.png" alt="">
+				</div>
+				<!-- <div class="title"> -->
+					<div class="form">
+					<h1 class="titulo1">Comenzá</h1>
+						<span class="titulo2">tu experiencia.</span>	
+				<!-- </div> -->
+				<div class="loader"></div>    
+					<div class="control-group">
+					<input type="text" class="login-field" value="" placeholder="  &#xf007;   Usuario" id="login-name">
+					<label class="login-field-icon fui-user" for="login-name"></label>
+					</div>
+	
+					<div class="control-group">
+					<input type="password" class="login-field" value="" placeholder="  &#xf023;   Contraseña" id="login-pass" onkeypress="pulsar()">
+					<label class="login-field-icon fui-lock" for="login-pass"></label>
+					</div>
+	
+					<a class="btn btn-primary btn-large btn-block" onclick="Login()" id="botonEntrar">Ingresar</a>
+					<a class="login-link" href="#">¿Olvidaste tu contraseña?</a>
+				</div>
+				<div class="info-media">
+					<h1 class="titulo">El valor <br>de la información.</h1>
+					<p class="parrafo">La digitalización te permite ahorrar mucho tiempo en la
+						ubicación de los documentos mal archivados, en copiar,
+						o enviar la información, traduciéndose en ahorros en los
+						gastos administrativos.</p>
+					<div class="linea-media"></div>
+				</div>
+			</div>
+			<!-- <div class="divcontraseña">
+			<a class="contraseña" href="">¿Olvidaste tu contraseña?</a>
+			</div> -->
+		<!-- </div> -->
+</body>
+</body>
+<script src="Scripts/login.js?version=1.0"></script>
+<script src="Scripts/JQuery/sweetalert.min.js"></script>
+<link href="css/sweetalert.css" rel="stylesheet" />
+</html>
